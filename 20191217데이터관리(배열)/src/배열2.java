@@ -5,6 +5,37 @@
  * 		======
  * 		난수발생  ==> 
  * 		======
+ * 
+ * 		=> 제어문
+ * 			for()
+ * 			{
+ * 				for()
+ * 				{
+ * 
+ * 				}
+ * 			}
+ * 
+ * 			for()
+ * 			{
+ * 				do{
+ * 				}while();
+ * 			}
+ * 
+ * 			for()
+ * 			{
+ * 				while()
+ * 				{
+ * 				}
+ * 			}
+ * 			
+ * 			while()
+ * 			{
+ * 				do{
+ * 				}while();
+ * 			}
+ * 
+ * 			for => while => do~while ==> 8
+ * 	
  */
 public class 배열2 {
 
@@ -23,7 +54,7 @@ public class 배열2 {
 			 * 	com[1] = 8
 			 * 	su = 8 ==> 
 			 */
-			while(bCheck) 
+			while(bCheck) // for(;;) true/false 값을 못보내서 사용불가
 			{
 				//난수 발생
 				su = (int)(Math.random()*9)+1;
